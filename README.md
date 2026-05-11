@@ -7,6 +7,6 @@ Vivado FPGA project implementing a command processor module with an AXI-based bl
 Open Vivado, then run:
 
 ```tcl
-source scripts/create_project.tcl
-source scripts/cmd_proc_bd.tcl
+source scripts/build.tcl
+open_project build/final.xpr
 ```
